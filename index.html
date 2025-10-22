@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Добрая территория — Методические материалы</title>
+
+  <!-- Google Fonts: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-U3fPA7V8qQmhBPNT5quvaXZ1P+KTV2s7p6HlP03d3K3f/7e6X5cX1Vq9fX7q5e1V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5V3q8v8v5j2c7y1V4a7q5......" crossorigin="anonymous" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Навигационное меню -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Логотип Добрая территория" />
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="module1.html" class="nav__link">Модуль 1</a></li>
+          <li class="nav__item"><a href="module2.html" class="nav__link">Модуль 2</a></li>
+          <li class="nav__item"><a href="module3.html" class="nav__link">Модуль 3</a></li>
+          <li class="nav__item"><a href="documents.html" class="nav__link">Документы</a></li>
+          <li class="nav__item"><a href="brandbook.html" class="nav__link">Брендбук</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Открыть меню">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Основной контент -->
+  <main class="main">
+    <div class="container">
+      <!-- Блоки модулей -->
+      <section class="modules">
+        <div class="card card--module" data-type="module">
+          <div class="card__header">
+            <h2 class="card__title">Модуль 1</h2>
+            <i class="fas fa-chevron-down card__toggle-icon"></i>
+          </div>
+          <div class="card__content">
+            <ul class="card__list">
+              <li><a href="module1.html#task1">Задание 1</a></li>
+              <li><a href="module1.html#task2">Задание 2</a></li>
+              <li><a href="module1.html#task3">Задание 3</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card card--module" data-type="module">
+          <div class="card__header">
+            <h2 class="card__title">Модуль 2</h2>
+            <i class="fas fa-chevron-down card__toggle-icon"></i>
+          </div>
+          <div class="card__content">
+            <ul class="card__list">
+              <li><a href="module2.html#task1">Задание 1</a></li>
+              <li><a href="module2.html#task2">Задание 2</a></li>
+              <li><a href="module2.html#task3">Задание 3</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card card--module" data-type="module">
+          <div class="card__header">
+            <h2 class="card__title">Модуль 3</h2>
+            <i class="fas fa-chevron-down card__toggle-icon"></i>
+          </div>
+          <div class="card__content">
+            <ul class="card__list">
+              <li><a href="module3.html#task1">Задание 1</a></li>
+              <li><a href="module3.html#task2">Задание 2</a></li>
+              <li><a href="module3.html#task3">Задание 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блоки документов и брендбука -->
+      <section class="documents">
+        <div class="card card--document" data-type="document">
+          <div class="card__header">
+            <h2 class="card__title">Документы</h2>
+            <i class="fas fa-chevron-down card__toggle-icon"></i>
+          </div>
+          <div class="card__content">
+            <ul class="card__list">
+              <li><a href="documents.html#doc1">Положение о проекте</a></li>
+              <li><a href="documents.html#doc2">Методические рекомендации</a></li>
+              <li><a href="documents.html#doc3">Шаблоны отчётов</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card card--document" data-type="document">
+          <div class="card__header">
+            <h2 class="card__title">Брендбук</h2>
+            <i class="fas fa-chevron-down card__toggle-icon"></i>
+          </div>
+          <div class="card__content">
+            <ul class="card__list">
+              <li><a href="brandbook.html#logo">Логотип и его использование</a></li>
+              <li><a href="brandbook.html#colors">Цветовая палитра</a></li>
+              <li><a href="brandbook.html#typography">Типографика</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
